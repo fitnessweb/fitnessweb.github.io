@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+#header {
+  margin: 0;
+  padding: 10px;
+  width: 100%; }
+  #header #header-container {
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%; }
+    #header #header-container .logo-heading {
+      font-family: "Gloria Hallelujah", cursive;
+      font-size: 30px;
+      font-weight: 400;
+      color: #3289c7;
+      float: left;
+      padding-left: 10px; }
+      #header #header-container .logo-heading a {
+        text-decoration: none; }
+        #header #header-container .logo-heading a:link, #header #header-container .logo-heading a:visited {
+          color: #3289c7; }
+        #header #header-container .logo-heading a:hover {
+          opacity: 0.8; }
+    #header #header-container .subjects {
+      padding: 15px;
+      list-style-type: none;
+      float: right; }
+      #header #header-container .subjects li {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 18px;
+        color: #3289c7;
+        padding: 12px;
+        display: inline; }
+        #header #header-container .subjects li a {
+          text-decoration: none; }
+          #header #header-container .subjects li a:link, #header #header-container .subjects li a:visited {
+            color: #3289c7; }
+          #header #header-container .subjects li a:hover {
+            opacity: 0.8; }
+
+#intro-container {
+  margin: 60px auto;
+  padding: 10px;
+  width: 50%; }
+  #intro-container img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto; }
+  #intro-container .intro-title {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #3289c7;
+    text-align: center;
+    padding-top: 20px; }
+  #intro-container .intro-text {
+    font-family: "Muli", sans-serif;
+    font-size: 20px;
+    color: #383838;
+    line-height: 1.5;
+    text-align: center;
+    padding: 15px 60px; }
+
+#wrapper {
+  margin: 0 auto;
+  padding: 60px 30px;
+  width: 60%; }
+
+/*# sourceMappingURL=main.css.map */
