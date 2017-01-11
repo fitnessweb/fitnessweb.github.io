@@ -73,5 +73,50 @@ html, body {
   margin: 0 auto;
   padding: 60px 30px;
   width: 60%; }
+  #wrapper .container {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 100%; }
+    #wrapper .container .introduction {
+      margin: 20px auto;
+      padding: 20px;
+      width: 60%; }
+      #wrapper .container .introduction > h1 {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 30px;
+        font-weight: 400;
+        color: #3289c7;
+        text-align: center;
+        padding: 10px; }
+      #wrapper .container .introduction .stand-for {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 18px;
+        color: #3289c7;
+        text-align: center;
+        padding: 10px; }
+      #wrapper .container .introduction .use {
+        font-family: "Muli", sans-serif;
+        font-size: 20px;
+        color: #383838;
+        line-height: 1.5;
+        text-align: center;
+        padding: 20px; }
+    #wrapper .container section {
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%; }
+      #wrapper .container section .section-title {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 30px;
+        font-weight: 400;
+        color: #3289c7;
+        text-align: left;
+        padding: 10px; }
+      #wrapper .container section .section-text {
+        font-family: "Muli", sans-serif;
+        font-size: 18px;
+        color: #383838;
+        line-height: 1.5;
+        padding: 15px 30px; }
 
 /*# sourceMappingURL=main.css.map */

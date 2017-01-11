@@ -110,4 +110,64 @@ html, body {
   padding: 60px 30px;
   width: 60%;
 
+  .container {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 100%;
+
+    .introduction {
+      margin: 20px auto;
+      padding: 20px;
+      width: 60%;
+
+      > h1 {
+        font-family: $gloria;
+        font-size: 30px;
+        font-weight: 400;
+        color: #3289c7;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .stand-for {
+        font-family: $gloria;
+        font-size: 18px;
+        color: #3289c7;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .use {
+        font-family: $muli;
+        font-size: 20px;
+        color: #383838;
+        line-height: 1.5;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+
+      .section-title {
+        font-family: $gloria;
+        font-size: 30px;
+        font-weight: 400;
+        color: #3289c7;
+        text-align: left;
+        padding: 10px;
+      }
+
+      .section-text {
+        font-family: $muli;
+        font-size: 18px;
+        color: #383838;
+        line-height: 1.5;
+        padding: 15px 30px;
+      }
+    }
+  }
 }
